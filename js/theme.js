@@ -340,3 +340,10 @@
     }); 
     
 })(jQuery);
+
+$(document).ready(function(){
+    
+  $('.pull-right').click(function(){
+      alert('We have received your inquiry. \n  we shall get back after 30 minutes')
+  })
+})
