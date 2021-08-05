@@ -149,19 +149,16 @@
               <h5 class="form-heading-title"><span class="form-heading-no">3.</span>Contact Details</h5>
               <div class="row">
                 <div class="col-sm-4">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
+                  <input type="text" id="txt" placeholder="Name...">
                 </div>
                 <div class="col-sm-4">
-                  <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
-                </div>
-                <div class="col-sm-4">
-                  <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+                <input type="email" id="email" placeholder="Email...">
                 </div>
                 <div class="col-sm-12">
                   <textarea id="message" name="message" rows="6" placeholder="Message"></textarea>
                 </div>
               </div>
-              <button type="submit" class="btn btn-default pull-right">Book Now</button>
+              <input type="submit" value="Book Now" name="btn" class="btn btn-info" onclick="checkEmpty()">
             </form>
           </div>
         </div>
@@ -303,6 +300,7 @@
 <script type="text/javascript" src="js/bootstrap-datepicker.js"></script> <!-- bootstrap datepicker js--> 
 <script type="text/javascript" src="js/jquery.elevatezoom.js"></script> <!-- image zoom js-->
 <script type="text/javascript" src="js/theme.js"></script> <!-- custom js -->  
+<script src="scripts.js"></script>
 <!-- end jquery -->
 </body>
 <!--body end -->
