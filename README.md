@@ -23,8 +23,17 @@
 * Git.
 * web browser.
 # LIVE LINK
-* This is the link of my project in my github account
+https://github.com/ObadiaH123/Ultimate-road-trip/deployments/activity_log?environment=github-pages
+# IMAGES.
+<img src="./images/home.png">
+<img src="./images/booking.png">
+<img src="./images/routes.png">
+<img src="./images/team.png">
+<img src="./images/management.png">
+<img src="./images/contacts.png">
+<img src="./images/footer.png">
+
 
 # LICENCESING
-Copyright <2021> <COPYRIGHT HOLDER>
+MIT LICENCE.
 
